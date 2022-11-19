@@ -12,3 +12,6 @@ variable "satursday_vpc_name" {
 variable "environment" {
   default = "this is satursday!!!!"
 }
+variable "team_name" {
+  
+}

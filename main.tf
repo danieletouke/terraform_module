@@ -5,6 +5,7 @@ resource "aws_vpc" "main" {
   tags = {
     Name = var.satursday_vpc_name
     env  = local.env_prefix
+    team = var.team_name
   }
 }
 locals {
