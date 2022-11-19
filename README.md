@@ -7,7 +7,7 @@ To utilize this module, create a new terraform project and past the code block b
 
 
 - define a module name by replacing "this_module"
-- change the source url to reference to this module : "https://github.com/danieletouke/terraform_module.git"
+- change the source url to reference to this module : "git::https://github.com/danieletouke/terraform_module.git?ref=main"
 - define values for all variable, below are list of variables users have to define :
     ```
     my_region = "us-west-1"
