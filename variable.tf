@@ -13,5 +13,5 @@ variable "environment" {
   default = "this is satursday!!!!"
 }
 variable "team_name" {
-  
+  default = null
 }
